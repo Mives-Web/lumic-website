@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px; /* Header yüksekliği için offset */
+  }
+  
+  body {
+    @apply bg-white text-dark-800;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary-400 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 hover:bg-primary-500 hover:shadow-lg transform hover:-translate-y-1;
+  }
+  
+  .btn-secondary {
+    @apply bg-secondary-500 text-dark-900 px-6 py-3 rounded-lg font-semibold transition-all duration-300 hover:bg-secondary-600 hover:shadow-lg transform hover:-translate-y-1;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-primary-400 text-primary-400 px-6 py-3 rounded-lg font-semibold transition-all duration-300 hover:bg-primary-400 hover:text-white;
+  }
+  
+  .card {
+    @apply bg-white rounded-xl shadow-lg p-6 transition-all duration-300 hover:shadow-xl hover:transform hover:-translate-y-2;
+  }
+  
+  .section-padding {
+    @apply py-16 px-4 sm:px-6 lg:px-8;
+  }
+  
+  .container-custom {
+    @apply max-w-7xl mx-auto;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary-400 to-secondary-500 bg-clip-text text-transparent;
+  }
+  
+  .shadow-custom {
+    box-shadow: 0 10px 25px -5px rgba(56, 189, 248, 0.1);
+  }
+}

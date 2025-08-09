@@ -1,0 +1,181 @@
+💻 Site Renk Şablonu Kullanımı
+Header & Footer:
+
+Arka plan: #0F172A (lacivert)
+
+Logo ve metin: beyaz
+
+Hover renk: #38BDF8 (turkuaz)
+
+Hero Section:
+
+Arka plan: gradient → bg-gradient-to-r from-[#0F172A] to-[#1E293B]
+
+Başlık: beyaz
+
+CTA 1 (Ana buton): turkuaz (#38BDF8, beyaz yazı)
+
+CTA 2 (İkincil): altın (#F59E0B, koyu yazı)
+
+Projeler & Hakkımda:
+
+Arka plan: açık gri (#F8FAFC)
+
+Kart arka plan: beyaz (#FFFFFF)
+
+Başlık: koyu gri (#1E293B)
+
+Hover: hafif turkuaz gölge veya border
+
+CTA Blokları (İletişim vb.):
+
+Arka plan: turkuaz (#38BDF8)
+
+Metin: beyaz
+
+Buton: altın (#F59E0B) veya lacivert (#0F172A)
+
+
+1. Header (Üst Menü)
+Amaç: Markayı tanıtmak ve site içinde kolay gezinmeyi sağlamak.
+İçerik:
+
+Sol: Logo (LUMIC yazı + sembol)
+
+Sağ: Menü linkleri:
+
+Hakkımızda
+
+Hizmetler
+
+Projeler
+
+Referanslar
+
+İletişim
+
+Buton: “Teklif Al” (dikkat çeken renk – Turkuaz/Altın)
+
+💡 Detay: Scroll yapınca küçülen “sticky header” olsun, her sayfada CTA butonu görünür kalsın.
+
+2. Hero Section (Açılış Kısmı)
+Amaç: 3 saniyede kim olduğunuzu ve ne yaptığınızı anlatmak.
+İçerik:
+
+Büyük başlık: “Modern ve Hızlı Web Çözümleri Üretiyoruz.”
+
+Alt başlık: “Full-Stack Web Geliştirme | React, Next.js, Node.js”
+
+2 buton:
+
+“Projelerimize Bak”
+
+“Bizimle Çalışın”
+
+Arka plan: Lacivert tonlarında gradient + hafif animasyon
+
+💡 Detay: Başlıkta döngülü animasyonla “Web Siteleri / Web Uygulamaları / E-ticaret Çözümleri” gibi kelimeler değişebilir.
+
+3. Hakkımızda
+Amaç: Güven oluşturmak ve kişisel/kurumsal hikayeyi paylaşmak.
+İçerik:
+
+Profil fotoğrafı veya ekibin görseli
+
+3-4 cümlelik tanıtım:
+
+Tecrübe süresi
+
+Uzmanlık teknolojiler
+
+İş yapış prensipleri
+
+Ana yetenekler (React, Next.js, Node.js, Tailwind CSS vb.) ikonlarla
+
+“Misyon & Vizyon” kısa metin
+
+4. Hizmetler
+Amaç: Ne tür işler yaptığını net listelemek.
+İçerik:
+
+3-4 ana kart:
+
+E-ticaret Geliştirme (Shopify, WooCommerce, özel çözümler)
+
+Kurumsal & Landing Page Tasarımı
+
+Özel Web Uygulamaları (dashboard, rezervasyon, CRM vb.)
+
+API Entegrasyon & Performans Optimizasyonu
+
+Her kartta kısa açıklama + ikon
+
+💡 Detay: Hover efekti ile arka plan rengini değiştir, buton çıksın.
+
+5. Projeler (Portföy)
+Amaç: Kaliteni ve tarzını göstermek.
+İçerik:
+
+6-8 proje kartı
+
+Her kartta:
+
+Ekran görüntüsü
+
+Proje adı + sektör
+
+1-2 cümle proje özeti
+
+Canlı Gör butonu
+
+Filtreleme: “Tümü / E-ticaret / Kurumsal / Web App”
+
+💡 Detay: Hover’da görselin üstüne yarı saydam açıklama gelsin.
+
+6. Referanslar
+Amaç: Sosyal kanıt ile güven artırmak.
+İçerik:
+
+3-5 müşteri yorumu
+
+Müşteri foto, isim, şirket
+
+Kısa yorum
+
+Slider veya grid tasarım
+
+7. İletişim
+Amaç: Ziyaretçinin kolayca ulaşmasını sağlamak.
+İçerik:
+
+Basit form: İsim, E-posta, Mesaj
+
+WhatsApp linki (tıkla-sohbet başlasın)
+
+LinkedIn & GitHub ikonları
+
+E-posta adresi
+
+Fiziksel adres (opsiyonel)
+
+💡 Detay: Form gönderilince teşekkür mesajı + 24 saat içinde dönüş sözü.
+
+8. Footer
+Amaç: Siteyi tamamlamak ve gerekli bilgileri vermek.
+İçerik:
+
+Copyright: “© 2025 LUMIC – Tüm Hakları Saklıdır.”
+
+Menü linkleri tekrar
+
+Sosyal medya ikonları
+
+Küçük bir “Made with ❤️ by LUMIC” yazısı
+
+💡 Ek Dikkat Çekme Taktikleri:
+
+Micro-animations: Buton hover’ları, kart geçişleri, yumuşak fade-in efektler
+
+CTA blokları: Sayfa ortasında “Projenizi hayata geçirelim → Teklif Al” gibi renkli bantlar
+
+Renk kontrolü: %70 koyu ton, %20 açık arka plan, %10 vurgu renk
